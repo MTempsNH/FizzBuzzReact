@@ -3,8 +3,8 @@ var App = React.createClass({
   getInitialState: function () { return { n: 0 } },
   render: function () {
     return <div>
-      <h1>clicked {this.state.n} times</h1>
-      <button onClick={this.handleClick}>click me!</button>
+      <h1>clicked {this.state.n} times!</h1>
+      <button onClick={this.handleClick}>click me now!</button>
     </div>
   },
   handleClick: function () {
